@@ -1,0 +1,30 @@
+body {
+  background-image: url(/images/background.jpg);
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-logo {
+  margin-left: 30px;
+  font-size: 1.6rem;
+}
+
+.menu-btn {
+  margin-right: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.menu-btn button {
+  color: orange;
+  font-size: 1.2rem;
+  padding: 7px 25px;
+  border-radius: 7px;
+}
